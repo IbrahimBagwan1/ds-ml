@@ -1,0 +1,61 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment folders
+/.env/
+.venv/
+env/
+venv/
+
+# Ignore output folders
+/output/
+/results/
+/models/
+/checkpoints/
+
+# Ignore package management files
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore images and plots
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.code-workspace
